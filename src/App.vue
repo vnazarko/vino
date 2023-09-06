@@ -51,7 +51,7 @@ export default {
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. </p>
           <a href="#" class="btn">узнать подробнее</a>
         </div>
-        <img src="./assets/img/img/novinki/Group 4.png" alt="" class="right">
+        <img src="./assets/img/img/novinki/Group.png" alt="" class="right">
       </div>
     </section>
     <section class="record">
@@ -83,6 +83,28 @@ export default {
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="list-item"><a href="#" class="nav__link">Главная</a></li>
+            <li class="list-item"><a href="#" class="nav__link">Каталог</a></li>
+            <li class="list-item"><a href="#" class="nav__link">Поставщики</a></li>
+            <li class="list-item"><a href="#" class="nav__link">Коллекции</a></li>
+            <li class="list-item"><a href="#" class="nav__link">Дегустация</a></li>
+            <li class="list-item"><a href="#" class="nav__link">Коллекции 2020</a></li>
+            <li class="list-item"><a href="#" class="nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <nav class="connect">
+          <ul class="connect__list">
+            <li class="list-item">винный бутик le corte</li>
+            <li class="list-item">8 (812) 123-45-67</li>
+            <li class="list-item">© le-corte.ru</li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -449,6 +471,69 @@ export default {
 @media (max-width: 575px) {
   .record {
     height: 750px;
+  }
+}
+
+// footer 
+
+.footer {
+  padding: 50px 0px 50px;
+  background: var(--accent, #998431);
+  width: 100%;
+}
+.footer__nav {
+  width: 100%;
+}
+.footer__nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  flex-wrap: wrap;
+  .list-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  .nav__link {
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    transition: .3s;
+    &:hover {
+      color: #282828;
+      transition: all .3s;
+    }
+  }
+}
+.connect {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+.connect__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .list-item {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 21px */
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
   }
 }
 </style>
