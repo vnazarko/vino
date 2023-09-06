@@ -27,6 +27,33 @@ export default {
         <img src="./assets/img/img/quote/image.png" alt="" class="img">
       </div>
     </section>
+    <section class="novinki">
+      <div class="container">
+        <div class="left">
+          <p class="upper-text">Новинки коллекций</p>
+          <h1 class="title">Март 1980 Урожай Марселя</h1>
+          <div class="line"></div>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. </p>
+          <table class="table-for-date">
+            <tr>
+              <td class="date">1980</td>
+              <td class="table-text">Colli Euganei Bianco Ca' Lustra 1980 <span>Красочная бутылка вина из Марселя</span></td>
+            </tr>
+            <tr>
+              <td class="date" style="border-bottom:1px solid #282828; border-top:1px solid #282828;">1980</td>
+              <td class="table-text" style="border-bottom:1px solid #282828; border-top:1px solid #282828;">Colli Euganei Bianco Ca' Lustra 1980 <span>Красочная бутылка вина из Марселя</span></td>
+            </tr>
+            <tr>
+              <td class="date">1980</td>
+              <td class="table-text">Colli Euganei Bianco Ca' Lustra 1980 <span>Красочная бутылка вина из Марселя</span></td>
+            </tr>
+          </table>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. </p>
+          <a href="#" class="btn">узнать подробнее</a>
+        </div>
+        <img src="./assets/img/img/novinki/Group 4.png" alt="" class="right">
+      </div>
+    </section>
   </div>
 </template>
 
@@ -126,6 +153,116 @@ export default {
     width: 160px;
     height: 160px;
     margin: 0 auto;
+  }
+}
+
+.novinki {
+  background: #E6E3C4;
+  padding: 80px 0px 80px 0px;
+  .container {
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.left {
+  height: 758px;
+  width: 445px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.upper-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.title {
+  color: var(--black, #282828);
+  font-family: Playfair_Display;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.line {
+  width: 160px;
+  height: 1px;
+  background: var(--black, #282828);
+  margin-bottom: 30px;
+}
+.text {
+  color: var(--black, #282828);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.table-for-date {
+  height: 228px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.date {
+  padding: 24px;
+  color: var(--black, #282828);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  border-right: 1px solid #282828;
+}
+.table-text {
+  padding: 15px 30px;
+  color: var(--black, #282828);
+  font-family: Playfair Display;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  span {
+    color: var(--black, #282828);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.btn {
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--accent, #998431);
+  border: 2px solid #998431;
+  transition: .3s;
+  text-decoration: none;
+  &:hover {
+    background: none;
+    color: #998431;
+    transition: all .3s;
+  }
+}
+@media (max-width: 1199px) {
+  .novinki {
+    .container {
+      flex-direction: column-reverse;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .table-for-date {
+    display: none;
+  }
+  .left {
+    height: 400px;
+    width: 290px;
   }
 }
 </style>
