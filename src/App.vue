@@ -54,6 +54,35 @@ export default {
         <img src="./assets/img/img/novinki/Group 4.png" alt="" class="right">
       </div>
     </section>
+    <section class="record">
+      <div class="container">
+        <div class="top">
+          <img src="./assets/img/img/record/grape.png" alt="" class="record__img">
+          <div class="center">
+            <h1 class="record__title">Запись на дегустацию</h1>
+            <div class="line"></div>
+            <p class="record__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. </p>
+          </div>
+          <img src="./assets/img/img/record/image.png" style="width:260px; height:200px;" alt="" class="record__img">
+        </div>
+        <div class="bottom">
+          <form class="form">
+            <div class="inline">
+              <ul class="inline__list">
+                <li class="inline__item">
+                  <input type="text" placeholder="Имя" class="input">
+                </li>
+                <li class="inline__item">
+                  <input type="number" placeholder="Телефон" class="input">
+                </li>
+              </ul>
+            </div>
+            <p class="place">Бутик на Невском 103</p>
+            <a href="#" class="form__btn">записаться</a>
+          </form>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -243,6 +272,7 @@ export default {
   border: 2px solid #998431;
   transition: .3s;
   text-decoration: none;
+  text-transform: uppercase;
   &:hover {
     background: none;
     color: #998431;
@@ -257,12 +287,168 @@ export default {
   }
 }
 @media (max-width: 575px) {
+  .novinki {
+    height: 1200px;
+  }
   .table-for-date {
     display: none;
   }
   .left {
     height: 400px;
     width: 290px;
+  }
+}
+
+// record
+
+.record {
+  width: 100%;
+  padding: 100px 0px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+  }
+}
+.top {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.record__img {
+}
+.line {
+  width: 118px;
+  height: 1px;
+  border: none;
+  background: #FFF;
+  margin: 40px auto 40px auto;
+}
+.record__title {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 700;
+}
+.record__text {
+  max-width: 539px;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.bottom {
+  height: 340px;
+  border: 3px solid #C4C4C4;
+  border-top: none;
+}
+.form {
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto 0 auto;
+}
+.inline {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inline__list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;  
+}
+
+.inline__item {
+  list-style-type: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--white, #FFF);
+}
+
+.input {
+  width: 254px;
+  border-bottom: 1px solid #fff;
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  background: none;
+  border: none;
+  &::placeholder {
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+  }
+}
+.place {
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  max-width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  margin-top: 40px;
+}
+.form__btn {
+  color: var(--white, #FFF);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+  height: 50px;
+  text-transform: uppercase;
+  border: 1px solid var(--white, #FFF);
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: .3s;
+  &:hover {
+    background: #fff;
+    color: #282828;
+    transition: all .3s;
+  }
+}
+
+@media (max-width: 1199px) {
+  .record__img {
+    display: none;
+  }
+  .center {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .inline__list {
+    flex-direction: column;
+  }
+  .bottom {
+    border: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .record {
+    height: 750px;
   }
 }
 </style>
