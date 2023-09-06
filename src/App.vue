@@ -19,6 +19,14 @@ export default {
         </div>
       </div>
     </div>
+    <section class="quote">
+      <div class="container">
+        <h1 class="title">Лучший вкус, это вкус долголетнего вина</h1>
+        <div class="line"></div>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</p>
+        <img src="./assets/img/img/quote/image.png" alt="" class="img">
+      </div>
+    </section>
   </div>
 </template>
 
@@ -68,6 +76,56 @@ export default {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+  }
+}
+
+// quote
+
+.quote {
+  width: 100%;
+  .container {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    border: 3px solid #C4C4C4;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  }  
+
+  .title {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .line {
+    width:160px; 
+    height: 1px;
+    border:none; 
+    background:#fff; 
+    margin: 40px auto;
+  }
+
+  .text {
+    max-width: 733px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto 50px auto;
+  }
+
+  .img {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
   }
 }
 </style>
