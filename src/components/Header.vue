@@ -3,10 +3,10 @@
   <header class="header">
     <div class="container">
       <div class="adres">
-        <p class="adres__text">Новокузнечный переулок 4/1</p>
-        <p class="adres__text">8 (812) 123-45-67</p>
+        <p class="adres__text  animate__animated animate__slideInLeft">Новокузнечный переулок 4/1</p>
+        <p class="adres__text  animate__animated animate__slideInRight">8 (812) 123-45-67</p>
       </div>
-      <nav class="header__nav">
+      <nav class="header__nav  animate__animated animate__slideInLeft">
         <ul class="nav-list">
           <li class="list-item" style="border-left: none; border-right: none;"><a href="#" class="nav__link">Каталог</a></li>
           <li class="list-item" style="border-right: none;"><a href="#" class="nav__link">Доставка</a></li>

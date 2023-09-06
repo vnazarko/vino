@@ -14,44 +14,44 @@ export default {
       <Header/>
       <div class="container">
         <div class="intro__buttons">
-          <a href="#" class="intro__btn">винная карта</a>
-          <a href="#" class="intro__btn">дегустация</a>
+          <a href="#" class="intro__btn  wow  animate__animated animate__slideInDown">винная карта</a>
+          <a href="#" class="intro__btn  wow  animate__animated animate__slideInUp">дегустация</a>
         </div>
       </div>
     </div>
     <section class="quote">
       <div class="container">
-        <h1 class="title">Лучший вкус, это вкус долголетнего вина</h1>
+        <h1 class="title  wow  animate__animated animate__slideInLeft">Лучший вкус, это вкус долголетнего вина</h1>
         <div class="line"></div>
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</p>
+        <p class="text  wow  animate__animated animate__slideInRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</p>
         <img src="./assets/img/img/quote/image.png" alt="" class="img">
       </div>
     </section>
     <section class="novinki">
       <div class="container">
         <div class="left">
-          <p class="upper-text">Новинки коллекций</p>
-          <h1 class="title">Март 1980 Урожай Марселя</h1>
+          <p class="upper-text  wow  animate__animated animate__slideInLeft">Новинки коллекций</p>
+          <h1 class="title  wow  animate__animated animate__slideInRight">Март 1980 Урожай Марселя</h1>
           <div class="line"></div>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. </p>
+          <p class="text  wow  animate__animated animate__slideInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. </p>
           <table class="table-for-date">
             <tr>
-              <td class="date">1980</td>
-              <td class="table-text">Colli Euganei Bianco Ca' Lustra 1980 <span>Красочная бутылка вина из Марселя</span></td>
+              <td class="date  wow  animate__animated animate__slideInDown">1980</td>
+              <td class="table-text  wow  animate__animated animate__slideInUp">Colli Euganei Bianco Ca' Lustra 1980 <span>Красочная бутылка вина из Марселя</span></td>
             </tr>
             <tr>
-              <td class="date" style="border-bottom:1px solid #282828; border-top:1px solid #282828;">1980</td>
-              <td class="table-text" style="border-bottom:1px solid #282828; border-top:1px solid #282828;">Colli Euganei Bianco Ca' Lustra 1980 <span>Красочная бутылка вина из Марселя</span></td>
+              <td class="date  wow  animate__animated animate__slideInDown">1980</td>
+              <td class="table-text  wow  animate__animated animate__slideInUp">Colli Euganei Bianco Ca' Lustra 1980 <span>Красочная бутылка вина из Марселя</span></td>
             </tr>
             <tr>
-              <td class="date">1980</td>
-              <td class="table-text">Colli Euganei Bianco Ca' Lustra 1980 <span>Красочная бутылка вина из Марселя</span></td>
+              <td class="date  wow  animate__animated animate__slideInDown">1980</td>
+              <td class="table-text  wow  animate__animated animate__slideInUp">Colli Euganei Bianco Ca' Lustra 1980 <span>Красочная бутылка вина из Марселя</span></td>
             </tr>
           </table>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. </p>
-          <a href="#" class="btn">узнать подробнее</a>
+          <p class="text  wow  animate__animated animate__slideInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. </p>
+          <a href="#" class="btn  wow  animate__animated animate__slideInRight">узнать подробнее</a>
         </div>
-        <img src="./assets/img/img/novinki/Group.png" alt="" class="right">
+        <img src="./assets/img/img/novinki/Group.png" alt="" class="right  wow  animate__animated animate__slideInDown">
       </div>
     </section>
     <section class="record">
@@ -59,9 +59,9 @@ export default {
         <div class="top">
           <img src="./assets/img/img/record/grape.png" alt="" class="record__img">
           <div class="center">
-            <h1 class="record__title">Запись на дегустацию</h1>
+            <h1 class="record__title  wow  animate__animated animate__slideInUp">Запись на дегустацию</h1>
             <div class="line"></div>
-            <p class="record__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. </p>
+            <p class="record__text  wow  animate__animated animate__slideInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. </p>
           </div>
           <img src="./assets/img/img/record/image.png" style="width:260px; height:200px;" alt="" class="record__img">
         </div>
@@ -70,22 +70,22 @@ export default {
             <div class="inline">
               <ul class="inline__list">
                 <li class="inline__item">
-                  <input type="text" placeholder="Имя" class="input">
+                  <input type="text" placeholder="Имя" class="input  wow  animate__animated animate__slideInUp">
                 </li>
                 <li class="inline__item">
-                  <input type="number" placeholder="Телефон" class="input">
+                  <input type="number" placeholder="Телефон" class="input  wow  animate__animated animate__slideInDown">
                 </li>
               </ul>
             </div>
-            <p class="place">Бутик на Невском 103</p>
-            <a href="#" class="form__btn">записаться</a>
+            <p class="place  wow  animate__animated animate__slideInLeft">Бутик на Невском 103</p>
+            <a href="#" class="form__btn  wow  animate__animated animate__slideInRight">записаться</a>
           </form>
         </div>
       </div>
     </section>
     <footer class="footer">
       <div class="container">
-        <nav class="footer__nav">
+        <nav class="footer__nav  wow  animate__animated animate__slideInRight">
           <ul class="footer__nav-list">
             <li class="list-item"><a href="#" class="nav__link">Главная</a></li>
             <li class="list-item"><a href="#" class="nav__link">Каталог</a></li>
@@ -96,7 +96,7 @@ export default {
             <li class="list-item"><a href="#" class="nav__link">Контакты</a></li>
           </ul>
         </nav>
-        <nav class="connect">
+        <nav class="connect wow  animate__animated animate__slideInLeft">
           <ul class="connect__list">
             <li class="list-item">винный бутик le corte</li>
             <li class="list-item">8 (812) 123-45-67</li>
